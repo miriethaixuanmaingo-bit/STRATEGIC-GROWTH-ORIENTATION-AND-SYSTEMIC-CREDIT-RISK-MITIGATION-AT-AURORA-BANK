@@ -7,7 +7,7 @@ Using **Power BI**, **Power Query**, and **Python**, this project processes tran
 
 ---
 
-## 📊 Dashboard Architecture & Data Storytelling
+## Dashboard Architecture & Data Storytelling
 
 The interactive dashboard is split into two specialized analytical pages, matching the dual pillars of modern commercial banking:
 
@@ -26,7 +26,7 @@ Focuses on shielding the bank's balance sheet from bad debt, spotting financial 
 
 ---
 
-## 🛠️ Tech Stack & Implementation Details
+## Tech Stack & Implementation Details
 
 * **Data Profiling & Initial Inspection:** Microsoft Excel (used for initial data screening, parsing structured text patterns, and validating numeric distributions).
 * **Database Management & SQL Querying:** DBeaver Community Edition (utilized as the core database client interface to structure datasets, verify primary/foreign keys, and run relational data checks).
@@ -63,7 +63,17 @@ Adhering to strict international banking data security frameworks, the underlyin
 
 ---
 
-## 📂 Repository Structure
+## 🚀 Data Attribution & How to Use
+
+1. **Source Data:** The raw transactional, marketing, operational, and credit risk data files utilized across both analytical branches in this project were retrieved from this [Google Drive Project Repository](https://drive.google.com/drive/folders/1X4Q7Ryev3UgBn-Bz6GjDoraVjRKkOe66?fbclid=IwY2xjawS6iW1leHRuA2FlbQIxMABzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeOUM9w6BxzxNdD-M1Mp5pw691h95vpxCFkWLaCMN3bpx2_diSAd-o-1OTbbw_aem_jQejWIhZISVPBbn0DJidMw).
+2. Clone this repository to your local computer.
+3. Ensure you have **Power BI Desktop** and **DBeaver** installed on your system.
+4. Extract the CSV source datasets into your local `Data/` directory.
+5. Open `Dashboard/Aurora_Bank_Analytics.pbix` in Power BI. If the application flags broken file pathways, navigate to **Data Source Settings** inside Power Query to remap the table locations to your local folder paths.
+
+---
+
+## Repository Structure
 
 ```directory
 ├── Data/                             # Raw CSV extracts source files
@@ -82,12 +92,3 @@ Adhering to strict international banking data security frameworks, the underlyin
 ├── Reports/
 │   └── Executive_Analytical_Report.md # Full Academic Business Case Report
 └── README.md                          # Repository documentation
----
-
-## 🚀 Data Attribution & How to Use
-
-1. **Source Data:** The raw transactional, marketing, operational, and credit risk data files utilized across both analytical branches in this project were retrieved from this [Google Drive Project Repository](https://drive.google.com/drive/folders/1X4Q7Ryev3UgBn-Bz6GjDoraVjRKkOe66?fbclid=IwY2xjawS6iW1leHRuA2FlbQIxMABzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeOUM9w6BxzxNdD-M1Mp5pw691h95vpxCFkWLaCMN3bpx2_diSAd-o-1OTbbw_aem_jQejWIhZISVPBbn0DJidMw).
-2. Clone this repository to your local computer.
-3. Ensure you have **Power BI Desktop** and **DBeaver** installed on your system.
-4. Extract the CSV source datasets into your local `Data/` directory.
-5. Open `Dashboard/Aurora_Bank_Analytics.pbix` in Power BI. If the application flags broken file pathways, navigate to **Data Source Settings** inside Power Query to remap the table locations to your local folder paths.
