@@ -1,0 +1,67 @@
+"card_brand","card_type","error_message","failure_count"
+Mastercard,Debit,Insufficient Balance,646
+Visa,Debit,Insufficient Balance,440
+Visa,Credit,Insufficient Balance,241
+Mastercard,Debit,Bad PIN,219
+Amex,Credit,Insufficient Balance,173
+Mastercard,Credit,Insufficient Balance,145
+Visa,Debit,Bad PIN,128
+Mastercard,Debit,Technical Glitch,120
+Visa,Debit,Technical Glitch,73
+Visa,Credit,Technical Glitch,45
+Mastercard,Debit (Prepaid),Insufficient Balance,43
+Discover,Credit,Insufficient Balance,42
+Mastercard,Debit,Bad Card Number,36
+Visa,Debit (Prepaid),Insufficient Balance,30
+Amex,Credit,Technical Glitch,29
+Mastercard,Credit,Technical Glitch,29
+Mastercard,Debit,Bad Expiration,27
+Visa,Debit,Bad Card Number,27
+Mastercard,Debit,Bad CVV,25
+Mastercard,Debit (Prepaid),Bad PIN,24
+Visa,Debit,Bad Expiration,23
+Visa,Debit,Bad CVV,18
+Visa,Credit,Bad CVV,12
+Visa,Debit (Prepaid),Technical Glitch,10
+Mastercard,Debit (Prepaid),Technical Glitch,10
+Visa,Credit,Bad Expiration,9
+Visa,Credit,Bad Card Number,8
+Amex,Credit,Bad Card Number,8
+Mastercard,Debit,Bad Zipcode,8
+Discover,Credit,Technical Glitch,8
+Mastercard,Credit,Bad Card Number,7
+Amex,Credit,Bad PIN,6
+Mastercard,Credit,Bad PIN,6
+Amex,Credit,Bad CVV,5
+Mastercard,Credit,Bad Expiration,5
+Visa,Debit (Prepaid),Bad PIN,4
+Visa,Debit (Prepaid),Bad Card Number,4
+Amex,Credit,Bad Expiration,4
+Visa,Debit,Bad Zipcode,3
+Mastercard,Debit,"Bad PIN,Insufficient Balance",3
+Visa,Credit,Bad Zipcode,3
+Visa,Debit (Prepaid),Bad Expiration,3
+Visa,Debit,"Bad PIN,Insufficient Balance",2
+Mastercard,Debit (Prepaid),Bad Card Number,2
+Amex,Credit,Bad Zipcode,2
+Mastercard,Debit (Prepaid),Bad CVV,2
+Mastercard,Debit (Prepaid),Bad Expiration,2
+Discover,Credit,Bad Card Number,1
+Visa,Debit,"Insufficient Balance,Technical Glitch",1
+Discover,Credit,Bad PIN,1
+Mastercard,Debit,"Bad Card Number,Technical Glitch",1
+Visa,Debit,"Bad CVV,Insufficient Balance",1
+Mastercard,Debit (Prepaid),"Bad Card Number,Bad CVV",1
+Visa,Debit,"Bad PIN,Technical Glitch",1
+Visa,Debit (Prepaid),Bad CVV,1
+Mastercard,Credit,Bad CVV,1
+Mastercard,Debit,"Insufficient Balance,Technical Glitch",1
+Mastercard,Credit,Bad Zipcode,1
+Visa,Credit,"Bad Card Number,Bad CVV",1
+Mastercard,Debit,"Bad CVV,Insufficient Balance",1
+Mastercard,Credit,"Insufficient Balance,Technical Glitch",1
+Mastercard,Debit (Prepaid),"Bad PIN,Insufficient Balance",1
+Amex,Credit,"Bad CVV,Insufficient Balance",1
+Mastercard,Debit,"Bad Expiration,Bad CVV",1
+Amex,Credit,"Bad Card Number,Insufficient Balance",1
+Discover,Credit,Bad CVV,1
