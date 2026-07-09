@@ -45,7 +45,7 @@ $$\text{Debt-to-Income (DTI) Ratio} = \frac{\text{Total Monthly Debt Obligations
 
 ---
 
-## 📈 Key Findings & Actionable Business Insights
+## Key Findings & Actionable Business Insights
 
 1. **The Mastercard Gateway Glitch:** The *Payment Pipeline Integrity Matrix* revealed that **Mastercard Debit processing accounts for a staggering 67.4% of all core technical failures (120 out of 178 total system glitches)**. 
    * *Mandate:* Core IT Infrastructure teams must immediately audit the API handshake layer specific to Mastercard debit bins to prevent transaction dropouts and secure interchange fee revenue.
@@ -56,14 +56,14 @@ $$\text{Debt-to-Income (DTI) Ratio} = \frac{\text{Total Monthly Debt Obligations
 
 ---
 
-## 🔒 Data Governance & Privacy Compliance
+## Data Governance & Privacy Compliance
 Adhering to strict international banking data security frameworks, the underlying datasets were structurally managed for compliance:
 * **PII Redaction:** All sensitive Personally Identifiable Information (PII) including cardholder names, phone numbers, and physical addresses was completely scrubbed and mapped to secure relational hash keys (`customer_id`).
 * **Financial Obfuscation:** Debt and income aggregates were passed through numeric normalization algorithms to protect proprietary financial reporting layers while preserving data variance for analytical modeling.
 
 ---
 
-## 🚀 Data Attribution & How to Use
+## Data Attribution & How to Use
 
 1. **Source Data:** The raw transactional, marketing, operational, and credit risk data files utilized across both analytical branches in this project were retrieved from this [Google Drive Project Repository](https://drive.google.com/drive/folders/1X4Q7Ryev3UgBn-Bz6GjDoraVjRKkOe66?fbclid=IwY2xjawS6iW1leHRuA2FlbQIxMABzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeOUM9w6BxzxNdD-M1Mp5pw691h95vpxCFkWLaCMN3bpx2_diSAd-o-1OTbbw_aem_jQejWIhZISVPBbn0DJidMw).
 2. Clone this repository to your local computer.
@@ -72,23 +72,3 @@ Adhering to strict international banking data security frameworks, the underlyin
 5. Open `Dashboard/Aurora_Bank_Analytics.pbix` in Power BI. If the application flags broken file pathways, navigate to **Data Source Settings** inside Power Query to remap the table locations to your local folder paths.
 
 ---
-
-## Repository Structure
-
-```directory
-├── Data/                             # Raw CSV extracts source files
-│   ├── Branch 1 (Marketing & Customer Value)/
-│   │   ├── Total Spending Volume by Generation.csv
-│   │   ├── Total_sales_volume by merchant_category.csv
-│   │   ├── Low-risk profile that rarely use credit cards.csv
-│   │   └── VIP Campaign Mailing List.csv
-│   └── Branch 2 (Risk & Operations)/
-│       ├── Credit Score and DTI Ratio.csv
-│       ├── Critical Bad Debt Aleart.csv
-│       ├── Customer with low risk and High-Margin target.csv
-│       └── Technical Failure Log.csv
-├── Dashboard/
-│   └── Aurora_Bank_Analytics.pbix     # Completed Power BI Project File
-├── Reports/
-│   └── Executive_Analytical_Report.md # Full Academic Business Case Report
-└── README.md                          # Repository documentation
